@@ -6,6 +6,8 @@ import {Links} from './Links';
 import {Resume} from './Resume';
 import {Background} from './Background';
 
+import {Link} from 'react-router-dom';
+
 export class Launch extends Component {
     render() {
         return(
@@ -19,6 +21,7 @@ export class Launch extends Component {
                         <Route path='/resume' component={Resume} />
                     </Switch>
                 </Router>
+
             </div>
         )
     }

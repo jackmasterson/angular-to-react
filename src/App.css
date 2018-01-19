@@ -53,3 +53,14 @@ ul {
     display: inline-block;
     width: 30vw;
 }
+
+.house-icon {
+    height: 50px;
+    width: auto;
+}
+
+.home-button {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}

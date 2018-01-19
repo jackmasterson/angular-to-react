@@ -32,6 +32,12 @@ export class Footer extends Component {
                     <li className="footer-li"
                         key={key}>
                         <FooterObject {...footer}/>
+                        <Link to="/"
+                            className="home-button">
+                            <img
+                                className="house-icon"
+                                src="../img/home.png" />
+                        </Link>
                     </li>
                 )
             })

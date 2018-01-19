@@ -12,7 +12,6 @@ export class Background extends Component {
             this.setState({imgSrc: '../img/shark-two-narrow.png'});
         }
         addEventListener('resize', () => {
-            console.log('resizing');
             if (small) {
                 small = false;
                 if (window.innerWidth > 1100) {
@@ -21,8 +20,8 @@ export class Background extends Component {
                     });
                 }
             } else {
+                small = true;
                 if (window.innerWidth < 1100) {
-                    small = true;
                     this.setState({
                         imgSrc: '../img/shark-two.png'
                     })
