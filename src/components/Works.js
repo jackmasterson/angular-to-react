@@ -5,11 +5,16 @@ export class Works extends Component {
     componentWillMount() {
         this.setState({
             footerData: [{
-                title: 'Neighborhood Map',
-                src: '../img/map.png',
-                href: 'https://rawgit.com/neighborhoodmap',
+                title: 'Chat In the Box',
+                src: '../img/chat.png',
+                href: 'https://chat-in-the-box.herokuapp.com/',
                 isExternal: true,
-            }]
+            }, {
+                title: 'Star Wars API',
+                src: '../img/star-wars.png',
+                href: 'https://jackmasterson.github.io/starwars/',
+                isExternal: true,
+            }],
         })
     }
     render() {

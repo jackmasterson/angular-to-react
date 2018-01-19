@@ -10,7 +10,7 @@ export class Main extends Component {
                 src: '../img/icon.png',
                 href: '/links'
             }, {
-                title: 'Works',
+                title: 'This Week\'s Works',
                 src: '../img/works.jpg',
                 href: '/works'
             }, {

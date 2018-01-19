@@ -20506,7 +20506,7 @@ exports = module.exports = __webpack_require__(28)(false);
 
 
 // module
-exports.push([module.i, "body {\n    height: 100vh;\n    width: 100vw;\n    overflow: hidden;\n}\n\nul {\n    margin: 15px 0 0 0;\n    padding: 0;\n}\n\n.overlay {\n    margin: 0;\n    position: absolute;\n    top: 0;\n    width: 100vw;\n    background: rgba(0,0,0,0.5);\n    color: white;\n    float: right;\n}\n\n.overlay-li {\n    display: inline-block;\n    margin-left: 15px;\n}\n\n.overlay-emphasis {\n    float: left;\n    margin: 5px;\n}\n\n.overlay-non {\n    float: right;\n    margin: 5px;\n}\n\n.footer-img {\n    height: 125px;\n    width: 125px;\n}\n\n.footer-ul {\n    overflow: scroll;\n    height: 36vh;\n}\n\n.footer-li {\n    display: inline-block;\n    width: 30vw;\n}\n\n.house-icon {\n    height: 50px;\n    width: auto;\n}\n\n.home-button {\n    position: absolute;\n    right: 0px;\n    bottom: 0px;\n}\n\n.shark-two {\n    background: url('/img/shark-two.png');\n    background-size: 100% 100%;\n    height: 64vh;\n    width: auto;\n}\n\n.shark-two-narrow {\n    background: url('/img/shark-two-narrow.png');\n    background-size: 100% 100%;\n    height: 64vh;\n    width: auto;\n}", ""]);
+exports.push([module.i, "body {\n    height: 100vh;\n    width: 100vw;\n    overflow: hidden;\n}\n\nul {\n    margin: 15px 0 0 0;\n    padding: 0;\n}\n\n.overlay {\n    margin: 0;\n    position: absolute;\n    top: 0;\n    width: 100vw;\n    background: rgba(0,0,0,0.5);\n    color: white;\n    float: right;\n}\n\n.overlay-li {\n    display: inline-block;\n    margin-left: 15px;\n}\n\n.overlay-emphasis {\n    float: left;\n    margin: 5px;\n}\n\n.overlay-non {\n    float: right;\n    margin: 5px;\n}\n\n.footer-img {\n    height: 125px;\n    width: 125px;\n    border-radius: 15px;\n    border: 1px solid black;\n    padding: 15px;\n}\n\n.footer-ul {\n    overflow: scroll;\n    height: 36vh;\n}\n\n.footer-li {\n    display: inline-block;\n    width: 30vw;\n}\n\n.house-icon {\n    height: 50px;\n    width: auto;\n}\n\n.home-button {\n    position: absolute;\n    right: 0px;\n    bottom: 0px;\n}\n\n.shark-two {\n    background: url('/img/shark-two.png');\n    background-size: 100% 100%;\n    height: 64vh;\n    width: auto;\n}\n\n.shark-two-narrow {\n    background: url('/img/shark-two-narrow.png');\n    background-size: 100% 100%;\n    height: 64vh;\n    width: auto;\n}", ""]);
 
 // exports
 
@@ -24327,7 +24327,7 @@ var Main = exports.Main = function (_Component) {
                     src: '../img/icon.png',
                     href: '/links'
                 }, {
-                    title: 'Works',
+                    title: 'This Week\'s Works',
                     src: '../img/works.jpg',
                     href: '/works'
                 }, {
@@ -24480,9 +24480,14 @@ var Works = exports.Works = function (_Component) {
         value: function componentWillMount() {
             this.setState({
                 footerData: [{
-                    title: 'Neighborhood Map',
-                    src: '../img/map.png',
-                    href: 'https://rawgit.com/neighborhoodmap',
+                    title: 'Chat In the Box',
+                    src: '../img/chat.png',
+                    href: 'https://chat-in-the-box.herokuapp.com/',
+                    isExternal: true
+                }, {
+                    title: 'Star Wars API',
+                    src: '../img/star-wars.png',
+                    href: 'https://jackmasterson.github.io/starwars/',
                     isExternal: true
                 }]
             });

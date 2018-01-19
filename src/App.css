@@ -37,6 +37,9 @@ ul {
 .footer-img {
     height: 125px;
     width: 125px;
+    border-radius: 15px;
+    border: 1px solid black;
+    padding: 15px;
 }
 
 .footer-ul {
