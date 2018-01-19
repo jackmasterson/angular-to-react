@@ -24548,7 +24548,7 @@ var Links = exports.Links = function (_Component) {
                 footerData: [{
                     title: 'Github',
                     src: '../img/github.png',
-                    href: 'https://github.com',
+                    href: 'https://github.com/jackmasterson',
                     isExternal: true
                 }, {
                     title: 'LinkedIn',
@@ -24615,8 +24615,8 @@ var Resume = exports.Resume = function (_Component) {
             this.setState({
                 footerData: [{
                     title: 'Resume',
-                    src: '../img/no-image.png',
-                    href: 'resume.html',
+                    src: '../img/resume.png',
+                    href: 'https://docs.google.com/document/d/1xVepoiTiLho8S9t3YDlXPND1DV0em3ayakRHMEJwGb4/edit?usp=sharing',
                     isExternal: true
                 }]
             });
