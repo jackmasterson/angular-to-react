@@ -1,0 +1,55 @@
+body {
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+ul {
+    margin: 15px 0 0 0;
+    padding: 0;
+}
+
+.background-img {
+    height: 64vh;
+    width: auto;
+}
+
+.overlay {
+    margin: 0;
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    background: rgba(0,0,0,0.5);
+    color: white;
+    float: right;
+}
+
+.overlay-li {
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.overlay-emphasis {
+    float: left;
+    margin: 5px;
+}
+
+.overlay-non {
+    float: right;
+    margin: 5px;
+}
+
+.footer-img {
+    height: 125px;
+    width: 125px;
+}
+
+.footer-ul {
+    overflow: scroll;
+    height: 36vh;
+}
+
+.footer-li {
+    display: inline-block;
+    width: 30vw;
+}
