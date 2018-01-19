@@ -6,24 +6,24 @@ export class Background extends Component {
         let small;
         if (window.innerWidth < 1100) {
             small = true;
-            this.setState({imgSrc: '../img/shark-two.png'});
+            this.setState({imgSrc: 'shark-two'});
         } else {
             small = false;
-            this.setState({imgSrc: '../img/shark-two-narrow.png'});
+            this.setState({imgSrc: 'shark-two-narrow'});
         }
         addEventListener('resize', () => {
             if (small) {
                 small = false;
                 if (window.innerWidth > 1100) {
                     this.setState({
-                        imgSrc: '../img/shark-two-narrow.png'
+                        imgSrc: 'shark-two-narrow'
                     });
                 }
             } else {
                 small = true;
                 if (window.innerWidth < 1100) {
                     this.setState({
-                        imgSrc: '../img/shark-two.png'
+                        imgSrc: 'shark-two'
                     })
                 }
             }
@@ -33,10 +33,7 @@ export class Background extends Component {
         return (
             <div>
                 <Overlay />
-                <img 
-                    className="background-img"
-                    src={this.state.imgSrc}
-                />
+                <div className={this.state.imgSrc}></div>
             </div>
         )
     }

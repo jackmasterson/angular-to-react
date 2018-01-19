@@ -7,27 +7,8 @@ export class Works extends Component {
             footerData: [{
                 title: 'Neighborhood Map',
                 src: '../img/map.png',
-                href: 'https://rawgit.com/neighborhoodmap'
-            }, {
-                title: 'Neighborhood Map',
-                src: '../img/map.png',
-                href: 'https://rawgit.com/neighborhoodmap'
-            }, {
-                title: 'Neighborhood Map',
-                src: '../img/map.png',
-                href: 'https://rawgit.com/neighborhoodmap'
-            }, {
-                title: 'Neighborhood Map',
-                src: '../img/map.png',
-                href: 'https://rawgit.com/neighborhoodmap'
-            }, {
-                title: 'Neighborhood Map',
-                src: '../img/map.png',
-                href: 'https://rawgit.com/neighborhoodmap'
-            }, {
-                title: 'Neighborhood Map',
-                src: '../img/map.png',
-                href: 'https://rawgit.com/neighborhoodmap'
+                href: 'https://rawgit.com/neighborhoodmap',
+                isExternal: true,
             }]
         })
     }

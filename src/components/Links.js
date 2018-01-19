@@ -7,7 +7,7 @@ export class Links extends Component {
             footerData: [{
                 title: 'Github',
                 src: '../img/github.png',
-                href: 'https://github.com',
+                href: 'https://github.com/jackmasterson',
                 isExternal: true,
             }, {
                 title: 'LinkedIn',

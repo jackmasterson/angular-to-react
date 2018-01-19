@@ -6,8 +6,8 @@ export class Resume extends Component {
         this.setState({
             footerData: [{
                 title: 'Resume',
-                src: '../img/no-image.png',
-                href: 'resume.html',
+                src: '../img/resume.png',
+                href: 'https://docs.google.com/document/d/1xVepoiTiLho8S9t3YDlXPND1DV0em3ayakRHMEJwGb4/edit?usp=sharing',
                 isExternal: true,
             }]
         })

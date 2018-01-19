@@ -7,7 +7,7 @@ export class Main extends Component {
         this.setState({
             footerData: [{
                 title: 'Links',
-                src: '../img/links.jpg',
+                src: '../img/icon.png',
                 href: '/links'
             }, {
                 title: 'Works',
@@ -15,7 +15,7 @@ export class Main extends Component {
                 href: '/works'
             }, {
                 title: 'Resume',
-                src: '../img/resume.jpg',
+                src: '../img/write.png',
                 href: '/resume'
             }]
         })
