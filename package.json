@@ -7,7 +7,9 @@
   "scripts": {
     "start": "nodemon server.js",
     "webpack": "webpack --watch",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "build": "react-scripts build",
+    "predeploy": "yarn build"
   },
   "author": "",
   "license": "ISC",
@@ -34,7 +36,8 @@
     "babel-preset-react": "^6.24.1",
     "babel-preset-stage-0": "^6.24.1",
     "css-loader": "^0.28.7",
-    "style-loader": "^0.19.0",
-    "gh-pages": "^1.1.0"        
+    "gh-pages": "^1.1.0",
+    "react-scripts": "^1.1.0",
+    "style-loader": "^0.19.0"
   }
 }

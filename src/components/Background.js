@@ -11,7 +11,7 @@ export class Background extends Component {
             small = false;
             this.setState({imgSrc: 'shark-two-narrow'});
         }
-        addEventListener('resize', () => {
+        document.addEventListener('resize', () => {
             if (small) {
                 small = false;
                 if (window.innerWidth > 1100) {
